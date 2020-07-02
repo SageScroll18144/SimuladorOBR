@@ -1,0 +1,18 @@
+inicio 
+
+enquanto(1==1) farei{
+          escrever(1, cor(2))
+          escrever(2, cor(3))
+          escrever(3, cor(4))
+          se (cor(2) == "PRETO" e cor(4) == "BRANCO") entao{
+                    mover(negativo(60), 60)   
+                    esperar(1000)
+          }se (cor(4) == "PRETO" e cor(2) == "BRANCO")entao{
+                    mover(60, negativo(60)) 
+                    esperar(1000)               
+          }se (cor(4) == "BRANCO" e cor(2) == "BRANCO")entao{
+                    mover(50, 50)         
+          }
+          
+}
+fim
