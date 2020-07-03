@@ -64,3 +64,5 @@ Action minhaTarefa = () => {
 };
 
 ```
+
+###### obs.: todas as funções são _lambdas_
