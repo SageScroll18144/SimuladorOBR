@@ -1,6 +1,6 @@
 Func<string, bool> isWhite = x =>  x.Equals("BRANCO");
 
-while(1){
+while(true){
     bc.printLCD(1,  isWhite("BRANCO").ToString());
 
 }
