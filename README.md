@@ -43,3 +43,24 @@ esperar(500)
 ```cs
 bc.wait(500);
 ```
+
+- Função
+
+```
+tarefa minhaTarefa {
+    escrever(1, "Olá pessoal do Discord!")
+}
+
+inicio
+    minhaTarefa()
+fim
+```
+
+```cs
+Action minhaTarefa = () => {
+
+    bc.printLCD(1,  "Olá pessoal do Discord!" );
+
+};
+
+```
